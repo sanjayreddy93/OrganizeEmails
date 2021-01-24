@@ -40,8 +40,8 @@ public class EmailRetrieval{
 		
 		String host = "imap.gmail.com";
 		String mailStoreType = "imap";
-		String mailId ="mariasherbatzky@gmail.com";
-		String pwd = "Tinnavara";
+		String mailId ="****************@gmail.com";
+		String pwd = "******";
 		
 		FetchingData Er = new FetchingData();
 		Er.createConnection(host, mailStoreType,mailId,pwd);
